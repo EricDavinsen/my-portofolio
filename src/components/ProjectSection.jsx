@@ -70,7 +70,7 @@ export const ProjectSection = () => {
                         
                             <div className="flex justify-between items-center">
                                 <div className="flex space-x-3">
-                                    <a href={project.link} className="text-foreground/80 hover:text-primary transition-colors duration-300"> 
+                                    <a href={project.link} className="text-foreground/80 hover:text-primary transition-colors duration-300" target="_blank"> 
                                         <ExternalLink  size={20}/>
                                     </a>
                                 </div>
