@@ -1,4 +1,4 @@
-import { Briefcase, Code, User } from "lucide-react"
+import { Code, User, DatabaseIcon } from "lucide-react"
 
 export const AboutSection = () => {
     return (
@@ -63,11 +63,11 @@ export const AboutSection = () => {
                      <div className="gradient-border p-6 card-hover">
                             <div className="flex items-start gap-4">
                                 <div className="p-3 rounded-full bg-primary/10">
-                                    <Briefcase className="h-6 w-6 text-primary" />
+                                    <DatabaseIcon className="h-6 w-6 text-primary" />
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="text-semibold text-lg">Web Development</h4>
-                                    <p className="text-muted-foreground">Creating websites with modern frameworks.</p>
+                                    <h4 className="text-semibold text-lg">Database Management</h4>
+                                    <p className="text-muted-foreground">Managing and designing databases to ensure data integrity, performance, and scalability.</p>
                                 </div>
                             </div>
                         </div>
