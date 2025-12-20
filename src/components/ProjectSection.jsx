@@ -17,6 +17,15 @@ const projects = [
         image: "/projects/jelajahjogja.png",
         tags: ["Node.Js", "Express.js"],
         link: "https://jejalahjogjakarta.netlify.app",
+    },
+
+    {
+        id: 3,
+        title: "Yogyakarta Profile",
+        description: "Yogyakarta Profile is a website that introduces Yogyakarta, a city rich in culture, history, and tradition. Known as the cultural heart of Java, it offers a unique blend of heritage, education, natural beauty, and a modern lifestyle, making it one of Indonesia’s most iconic destinations.",
+        image: "/projects/profilyogyakarta.png",
+        tags: ["HTML","CSS","JavaScript"],
+        link: "https://jejalahjogjakarta.netlify.app",
     }
 
 ]
